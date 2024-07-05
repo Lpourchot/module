@@ -9,10 +9,5 @@ setup(
     description='module selon les besoins',
     packages=find_packages(),    
     install_requires=['numpy >= 1.11.1'],
-)
     install_requires=read_requirements("requirements.txt"),
-    entry_points={
-        "console_scripts": ["project_name = project_name.__main__:main"]
-    },
-    extras_require={"test": read_requirements("requirements-test.txt")},
 )
