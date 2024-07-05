@@ -1,13 +1,11 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-setup(
-    name='module',
-    version='1.0.0',
-    url='https://github.com/Lpourchot/module.git',
-    author='Laurent Pourchot',
-    author_email='laurent_pourchot@fr.ibm.com',
-    description='module selon les besoins',
-    packages=find_packages(),    
-    install_requires=['numpy >= 1.11.1'],
-    install_requires=read_requirements("requirements.txt"),
-)
+setup(name='module',
+      version='0.1',
+      description='xxx',
+      url='https://github.com/Lpourchot/module',
+      author='Pourchot',
+      author_email='laurent_pourchot@fr.ibm.com',
+      license='MIT',
+      packages=['numpy'],
+      zip_safe=False)
