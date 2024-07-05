@@ -7,5 +7,5 @@ setup(name='module',
       author='Pourchot',
       author_email='laurent_pourchot@fr.ibm.com',
       license='MIT',
-      packages=['numpy'],
+      packages=['src'],
       zip_safe=False)
