@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='module',
+setup(name='new_module',
       version='0.1',
       description='xxx',
       url='https://github.com/Lpourchot/module',
