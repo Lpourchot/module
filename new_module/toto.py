@@ -1,2 +1,2 @@
-def():
+def Bonjour():
   print('hello world')
